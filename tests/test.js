@@ -19,5 +19,5 @@ test("Adds 2 + 2 to equal 4", () => {
 });
 
 test("Adds 2 + 2 to equal 4", () => {
-  expect(addNumbers("2\n 5, 2")).toBe(9);
+  expect(addNumbers("2\n 5, 2;1")).toBe(10);
 });
